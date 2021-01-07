@@ -20,10 +20,10 @@ class Account {
     // ① 以下のルールに従いアカウント情報（名前、ID、パスワード）を出力するメソッドを作成してください。
     // アクセス修飾子:「protected」
     // メソッド名:「printAccountInfo」
-	protected static void printAccountInfo(String[]arg) {
-		System.out.println("名前は、"+userName);
-		System.out.println("IDは、"+id);
-		System.out.println("パスワードは、"+password);
+	protected static void printAccountInfo() {
+		System.out.println("名前は、" + userName);
+		System.out.println("IDは、" + id);
+		System.out.println("パスワードは、" + password);
 	}
 
 }
