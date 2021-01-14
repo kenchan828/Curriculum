@@ -1,2 +1,1 @@
 INDEX VERSION 1.131+/Users/kenichiyamagami/Documents/GitHub/Curriculum/JavaStudy/chapter1/study/2-1/.metadata/.plugins/org.eclipse.jdt.core
-1278750107.index
