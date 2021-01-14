@@ -25,8 +25,8 @@ public class Main {
 
         //③ arr 配列をループさせ、isOdd関数を使って配列の要素が奇数かどうかの判定を行いなさい。
         //   要素が奇数の場合には「nは奇数です。」と出力されます。
-        	for (int num =0; num <arr.length;　num++) {
-        		isOdd();
+        	for (int num =0; num <arr.length; num++) {
+        		isOdd(arr);
         	}
 
 
@@ -37,7 +37,7 @@ public class Main {
     //  修飾子：public
     //   引数には①で定義したfirstNameとlastNameを引数で受け取り、
     //  last_name と first_name を連結した値を返り値とする変数を定義しなさい。
-    	public getName() {
+    	public  static getName(Str firstName, Str lastName) {
     		return(firstName + lastName);
     	}
 
