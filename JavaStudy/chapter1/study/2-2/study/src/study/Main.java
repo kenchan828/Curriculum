@@ -16,13 +16,11 @@ public class Main {
 
         // ① 以下のルールに従いAccountクラスのインスタンスを生成してください。
         // 変数名:「account」
-    	public class Account {
     		Account　account  = new Account();
     		account.userName = "hoge";
     		account.id = "123";
     		account.password = "abc123";
         // ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
-    		account.printAccountInfo();		
+    		account.printAccountInfo();
     	}
-    }
 }
