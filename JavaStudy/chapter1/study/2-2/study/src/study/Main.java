@@ -16,7 +16,7 @@ public class Main {
 
         // ① 以下のルールに従いAccountクラスのインスタンスを生成してください。
         // 変数名:「account」
-    		Account　account  = new Account();
+    		Account　account  = new Account(String[],int[],String[]);
     		account.userName = "hoge";
     		account.id = "123";
     		account.password = "abc123";
